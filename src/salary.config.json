@@ -1,0 +1,9 @@
+{
+    "salaries": [
+        {
+            "grossWage": 12000,
+            "benefits": 5000,
+            "salaryWithoutBenefits": 0
+        }
+    ]
+}
