@@ -1,0 +1,51 @@
+{
+    "irTable": [
+        {
+            "startRange": 0,
+            "endRange": 2826.65,
+            "discount": 0
+        },
+        {
+            "startRange": 2826.66,
+            "endRange": 3751.05,
+            "discount": 0.15,
+            "deduction": 370.40
+        },
+        {
+            "startRange": 3751.06,
+            "endRange": 4664.68,
+            "discount": 0.2250,
+            "deduction": 651.73
+        },
+        {
+            "startRange": 4664.68,
+            "endRange": -1,
+            "discount": 0.2750,
+            "deduction": 884.96,
+            "maxRange": true
+        }
+    ],
+    "inssTable": [
+        {
+            "startRange": 0,
+            "endRange": 1320.00,
+            "quote": 0.075
+        },
+        {
+            "startRange": 1319.99,
+            "endRange": 2571.29,
+            "quote": 0.09
+        },
+        {
+            "startRange": 2571.28,
+            "endRange": 3856.94,
+            "quote": 0.12
+        },
+        {
+            "startRange": 3856.93,
+            "endRange": 7507.49,
+            "maxRange": true,
+            "quote": 0.14
+        }
+    ]
+}
