@@ -1,0 +1,44 @@
+.card {
+    width: 400px;
+    padding: 10px 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.628);
+    border-radius: 10px;
+
+    > :nth-child(even) {
+        background-color: rgb(218, 247, 237);
+    }
+
+    > :nth-child(odd) {
+        background-color: rgb(179, 239, 254);
+    }
+
+    .title {
+        background-color: unset;
+        margin: 0 0 5px 0;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        color: green;
+    }
+}
+
+.infoItem {
+    display: flex;
+    font-size: 1rem;
+    p {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 5px 10px;
+    }
+
+    :nth-child(1) {
+        flex-basis: 70%;
+    }
+
+    :nth-child(2) {
+        flex-basis: 20%;
+        text-align: left;
+        color: green;
+        font-weight: 500;
+    }
+}

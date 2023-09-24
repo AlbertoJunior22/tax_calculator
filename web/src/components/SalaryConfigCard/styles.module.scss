@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    gap: 5px;
+
+    .card {
+        box-shadow: 1px 1px 1px black;
+        width: 350px;
+        padding: 5px;
+        background-color: #b8e62d;
+        border-radius: 10px 0 0 10px;
+
+        > div {
+            display: flex;
+            padding: 5px 0;
+
+            > p {
+                font-weight: bold;
+                flex-basis: 70%;
+            }
+
+            .input {
+                flex-basis: 30%;
+            }
+        }
+    }
+
+    .card.notRemovable {
+        border-radius: 10px;
+    }
+
+    .removeBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100%;
+        width: 20px;
+        border-radius: 0 10px 10px 0;
+        background-color: rgba(255, 0, 0, 0.442);
+        cursor: pointer;
+
+        div {
+            height: 5px;
+            width: 10px;
+            background-color: white;
+        }
+    }
+}

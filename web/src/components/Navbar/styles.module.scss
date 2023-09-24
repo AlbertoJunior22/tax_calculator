@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(184, 230, 45);
+
+    .logo, .settings {
+        height: 100%;
+        padding: 5px;
+        
+        img {
+            border-radius: 75%;
+            height: 100%;
+        }
+    }
+
+    .settings {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 40px;
+        img {
+            height: 40%;
+        }
+    }
+}

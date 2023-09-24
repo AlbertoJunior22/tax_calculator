@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(105, 105, 105);
+    width: 100%;
+    
+    .content {
+        width: 65%;
+        min-height: calc(100vh - 100px);
+        padding: 0 20px;
+        padding-top: 50px;
+        background-color: aliceblue;
+    }
+}

@@ -1,0 +1,18 @@
+.floatButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 200px;
+    right: 200px;
+    z-index: 1;
+    background-color: #B8E62D;
+    height: 100px;
+    width: 100px;
+    border-radius: 75%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: 2px 1px 1px black;
+    box-shadow: 2px 2px 2px black;
+}
